@@ -51,16 +51,7 @@ public class Index{
 			data_list.add(w);
 		}
 		
-		//Finding largest string. Program will break if max length of word exceeds nc.
-		//int max_len = data_list.get(0).length();
-		//int ind_str = 0;
-		//for(int i = 0; i < data_list.size(); i++){
-		//	if(data_list.get(i).length() > max_len){
-		//		max_len = data_list.get(i).length();
-		//		ind_str = i;
-		//	}
-		//}
-		//System.out.println("Index " + ind_str + " "+ data_list.get(ind_str) + " " + "is the largest and is size " + max_len);
+		//Program will break if max length of word exceeds nc.
 		
 		//Finding total length of all the letters.
 		ArrayList<String> letters = new ArrayList<>();
